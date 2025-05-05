@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natsume - Tokyo Zoo's Beloved Hippo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="water-background"></div>
+      <div class="forest-elements"></div>
+    </div>
+
+    <header>
+      <div class="logo-container">
+        <div class="logo">
+          <img src="natsume-banner.jpg" alt="Natsume at Tokyo Zoo Enclosure" />
+        </div>
+      </div>
+      <h1 class="site-title">NATSUME</h1>
+      <p class="site-subtitle">Tokyo Zoo's Majestic Hippo Mother</p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="wooden-sign">
+            <h2>🤑 Meet Natsume!</h2>
+            <p>Tokyo Zoo's beloved hippopotamus and proud mother</p>
+
+            <div class="ca-copier">
+              <input
+                type="text"
+                id="contract-address"
+                value="0x0000000000000000000000000000000000000000000"
+                readonly
+              />
+              <button id="copy-button">
+                <i class="fas fa-copy"></i> Copy CA
+              </button>
+              <span id="copy-message">Contract Address</span>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#" class="btn-chart">
+                <i class="fas fa-chart-line"></i> View Chart
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="natsume.jpg" alt="Natsume the Hippo" />
+            <button class="btn-play-video">
+              <i class="fas fa-play-circle"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="video-modal">
+          <div class="video-modal-content">
+            <span class="close-video">&times;</span>
+            <video id="hippo-video" controls>
+              <source src="natsume-video.MP4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="exhibit-info">
+        <div class="bamboo-frame">
+          <div class="exhibit-card">
+            <h2>🤑 The Star of Tokyo Zoo</h2>
+            <div class="hippo-info">
+              <div class="hippo-profile natsume-profile">
+                <h3>Natsume</h3>
+                <div class="info-tag">
+                  <span class="label">Age:</span>
+                  <span class="value">11 years</span>
+                </div>
+                <div class="info-tag">
+                  <span class="label">Birth:</span>
+                  <span class="value">July 3, 2011</span>
+                </div>
+                <div class="info-tag">
+                  <span class="label">Gender:</span>
+                  <span class="value">Female</span>
+                </div>
+                <div class="info-tag">
+                  <span class="label">Personality:</span>
+                  <span class="value">Gentle, Playful, Nurturing</span>
+                </div>
+                <div class="keeper-notes">
+                  <p>
+                    "Natsume is a gentle giant with a heart of gold. She's
+                    become a visitor favorite with her playful splashes and
+                    gentle demeanor. Her maternal instincts are incredibly
+                    strong."
+                  </p>
+                </div>
+              </div>
+              <div class="hippo-profile kobushi-profile">
+                <h3>Kobushi</h3>
+                <div class="sub-heading">Natsume's Calf</div>
+                <div class="info-tag">
+                  <span class="label">Born:</span>
+                  <span class="value">March 14, 2022</span>
+                </div>
+                <div class="info-tag">
+                  <span class="label">Mother:</span>
+                  <span class="value">Natsume</span>
+                </div>
+                <div class="keeper-notes">
+                  <p>
+                    "Kobushi follows his mother everywhere, learning the ways of
+                    hippo life from the best teacher at Tokyo Zoo."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="birth-story">
+        <div class="bamboo-frame">
+          <h2>🤑 Natsume's Journey to Motherhood</h2>
+          <p>
+            On March 14, surrounded by love, joy, and happiness, Natsume gave
+            birth to the remarkable Kobushi, marking a significant milestone in
+            her life at Tokyo Zoo.
+          </p>
+          <p>
+            The bond between Natsume and her calf captivated the hearts of
+            visitors and zookeepers alike. Her natural maternal instincts
+            immediately shone through as she protected and nurtured her newborn.
+          </p>
+          <div class="video-container">
+            <p>Watch Natsume's special moments:</p>
+            <a
+              href="https://www.tokyo-zoo.net/movie/mov_book/2504_03/index.html"
+              class="video-link"
+              target="_blank"
+            >
+              <i class="fas fa-play-circle"></i> Tokyo Zoo Video
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="daily-life">
+        <div class="wooden-sign">
+          <h2>🤑 A Day in Natsume's Life</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="time">6:00 AM</div>
+              <div class="activity">Morning swim in the main pool</div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">8:30 AM</div>
+              <div class="activity">Breakfast with fresh vegetables</div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">11:00 AM</div>
+              <div class="activity">Visitor viewing time</div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">1:30 PM</div>
+              <div class="activity">Afternoon rest in the shade</div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">4:00 PM</div>
+              <div class="activity">Playtime with Kobushi</div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">7:00 PM</div>
+              <div class="activity">Evening meal and relaxation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="bamboo-frame">
+          <h2>🤑 Natsume Gallery</h2>
+          <div class="gallery-container">
+            <div class="gallery-note">
+              <p>
+                Images coming soon! Follow our social media for the latest
+                photos of Natsume's adventures at Tokyo Zoo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="announcements">
+        <div class="wooden-sign">
+          <h2>🤑 Latest Updates</h2>
+          <div class="announcement-card">
+            <h3>Natsume's Special Enrichment Program</h3>
+            <p>
+              We've designed new enrichment activities to keep Natsume mentally
+              stimulated and physically active!
+            </p>
+            <p class="date">Coming Soon</p>
+          </div>
+          <div class="announcement-card">
+            <h3>Motherhood Milestone: One Year with Kobushi</h3>
+            <p>
+              Join us as we celebrate Natsume's first year of motherhood and her
+              incredible journey with Kobushi.
+            </p>
+            <p class="date">March 14, 2023</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <h3>Connect With Natsume</h3>
+        <div class="social-icons">
+          <a
+            href="https://t.me/Natsumeoneth"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-telegram"></i>
+            <span>Telegram</span>
+          </a>
+          <a
+            href="https://x.com/nasumeonethe"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>© 2025 Tokyo Zoo Hippo Experience. All Rights Reserved.</p>
+        <p>This website is dedicated to the incredible journey of Natsume.</p>
+      </div>
+    </footer>
+
+    <div class="floating-animals">
+      <div class="bird bird-1"></div>
+      <div class="bird bird-2"></div>
+      <div class="bird bird-3"></div>
+      <div class="butterfly butterfly-1"></div>
+      <div class="butterfly butterfly-2"></div>
+      <div class="dragonfly"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
