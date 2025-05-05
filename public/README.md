@@ -1,6 +1,6 @@
 # Natsume & Kobushi - Zoo Website
 
-A themed single-page website celebrating the mother and child hippo duo from Tokyo Zoo.
+A themed single-page website celebrating the mother and child hippo duo from Ueno Zoo.
 
 ## Features
 
